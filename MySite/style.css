@@ -2,7 +2,12 @@
      margin:0px;
 }
 html{
-
+    font-size: 100%;
+}
+body{
+    font-family: Georgia,sans-serif;
+    font-size: 1em;
+    color: #004c40;
 }
 #wrapper{
     max-width: 1200px; /*example of an ID selector, If viewport is smaller then 1200px the width will be 100% of viewport*/
@@ -19,16 +24,17 @@ header{
     color:004c40;
 }
 h1{
+    font-weight:300; 
+    font-size: 6rem;
     height: 120px;
     color:#004c40;
     font-family: gabriola, sans-serif; 
-    
     padding-bottom:0px;
 }
 h2{
     color:#00796b;
     font-family:Georgia;
-    font-size: 30px; 
+    font-size: 2rem ; 
 }
 h3{ 
     background-color: #4f9a94;
@@ -36,13 +42,13 @@ h3{
     border-bottom: solid 8px #00796b;
     padding-left: 16px;
     padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 36px;
+    font-size: 2rem;
     margin-bottom: 24px;
     font-family:Georgia, sans-serif;
 }
 h4{
     background-color: #b3fef7;
+    color:#004c40;
     height: 16px;
     border-bottom: solid 4px #00796b;
     padding-left: 16px;
@@ -50,6 +56,12 @@ h4{
     padding-bottom: 10px;
     margin-bottom: 24px;
     font-family:Georgia, sans-serif;
+}
+p{
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 10px;S
 }
 #content{
     display:flex;
@@ -67,13 +79,11 @@ h4{
 #work img{
     width: 100%;
 }
-p{
-    font-family: Georgia,sans-serif;
-    font-size: 1em;
-    color: #004c40;
-}
+
 footer{
     margin-top: 16px; 
+    margin-bottom: 10px;
+    margin-left: 15px;
 }
 
 
@@ -81,7 +91,7 @@ footer{
 
 @media(min-width:768px){
     h1{
-        font-size: 10rem;
+        font-size: 6rem;
     }
     #content{
         flex-direction: row; /* items arranged horizontally */   
